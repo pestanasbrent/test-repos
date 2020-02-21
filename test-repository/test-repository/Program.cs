@@ -14,7 +14,7 @@ namespace Bato_Bato_Pic
             int retry = 1;
             int difficulty;
             Console.WriteLine("Choose Difficulty");
-            Console.WriteLine("[1] - Easy");
+            Console.WriteLine("[1] - ez");
             Console.WriteLine("[2] - Hard");
             int.TryParse(Console.ReadLine(), out difficulty);
             if (difficulty == 1)
